@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry
+ * main - print c programme using printf
  *
- * Return: Always 0
- * /
- int main(voi)
- {
-    
+ * Return: 0
+ */
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+}
