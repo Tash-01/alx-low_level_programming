@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Determine the last digi
+ * main - Determine the last digit
  * Return: 0
  */
 int main(void)
