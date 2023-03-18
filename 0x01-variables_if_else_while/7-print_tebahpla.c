@@ -4,15 +4,15 @@
 
 /**
  * main - print the lowercase alphabet in reverse
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
-	char low;
+	char love;
 
-	for (low = 'z'; low >= 'a'; low--)
-		putchar(low);
+	for (love = 'z'; love >= 'a'; love--)
+		putchar(love);
+
 	putchar('\n');
-
-	return (0);
+		return (0);
 }
