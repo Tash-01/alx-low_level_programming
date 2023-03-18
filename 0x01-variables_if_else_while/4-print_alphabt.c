@@ -9,9 +9,8 @@ int main(void)
 {
 	char c = 'a';
 
-while (c <= '2')
-	{
-if (c != 'e' && c != 'q')
+	while (c <= 'z')
+	if (c != 'e' && c != 'q')
 				{
 				putchar(c);
 				}
