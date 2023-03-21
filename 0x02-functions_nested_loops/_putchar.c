@@ -4,7 +4,7 @@
  * @c: The character to print 
  * Return: on success and error is set appropiately
  */
-int _putchar(char c)
+int _putchar(char c);
 {
 	return (0);
 }
