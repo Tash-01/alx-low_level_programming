@@ -1,4 +1,4 @@
-# "main.h"
+#include "main.h"
 
 /**
  * jack_bauer -main time
@@ -21,3 +21,4 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 	}
+}
