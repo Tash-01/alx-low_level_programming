@@ -5,7 +5,7 @@
  * @a: int to be added to b
  * @b: int to be added to a
  */
-int add(a, b)
+int add(int a, int b)
 {
 	int c;
 
