@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0
+ * main - check code that prints a sign of numberi.
+ * Return: Always 0.
  */
 int main(void)
 {
