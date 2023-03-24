@@ -7,7 +7,7 @@
  * Return: adition of the multiplication
  */
 
-int _mul(int a, int b)
-{
+int mul(int a, int b);
+{{
 	return (a * b);
 }
