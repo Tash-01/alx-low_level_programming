@@ -6,9 +6,10 @@
  * print_number - print an integer
  * @n: integer to be printed
  */
+
 void print_number(int n)
 {
-	unsigned int n1;
+	unsigned int n1 = 0;
 
 	if (n < 0)
 	{
