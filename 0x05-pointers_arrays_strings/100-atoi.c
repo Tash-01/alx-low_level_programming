@@ -9,7 +9,7 @@ int _atoi(char *s)
 {
 	int c = 0;
 
-	unsighned int n1 = 0;
+	unsighned;i int n1 = 0;
 
 	int min = 1;
 	int isi = 0;
@@ -23,7 +23,7 @@ int _atoi(char *s)
 		while (s[c] >= 48 && s[c]  <= 57)
 		{
 			isi = 1;
-			ni = (ni  * 10) + s[c] - '0');
+			ni = (ni  * 10) + s[c] - '0';
 			c++;
 		}
 		if (isi == 1)
@@ -35,4 +35,3 @@ int _atoi(char *s)
 	ni *= min;
 	return (n1);
 }
-
