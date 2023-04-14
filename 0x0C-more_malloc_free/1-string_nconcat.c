@@ -5,6 +5,7 @@
  * string_nconcat - concatenates n bytes of a string to another string
  * @s1: first string
  * @s2: second string
+ * @n: amount of bytes
  *
  * Return: pointer to the allocated memory
  * if malloc fails, status value is equal to 98
