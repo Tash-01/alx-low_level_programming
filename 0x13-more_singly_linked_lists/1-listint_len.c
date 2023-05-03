@@ -3,8 +3,8 @@
 
 /**
  * listint_len - returns the number of elements in a
- *  linked listint_t list
- *  * @h: pointer to length of the list
+ * linked listint_t list
+ * @h: pointer to length of the list
  *
  * Return: number of nodes in listint_len list
  */
