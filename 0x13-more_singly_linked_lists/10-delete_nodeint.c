@@ -26,15 +26,14 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	while (s < index - 1)
 	{
-		if (empt || !(empy->next)
-				return (1);
-				empt = empt->next;
-				s++;
-				}
+		if (!empt || !(empt->next))
+			return (-1);
+		empt = empt->next;
+		s++;
+	}
+	new = empt->next;
+	empt->next = new->next;
+	free(new);
 
-				new = empt->next;
-				empt->next = new->next;
-				free(new)
-
-				return (1);
-				}
+	return (1);
+}
