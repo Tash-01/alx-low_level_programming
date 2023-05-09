@@ -12,25 +12,25 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file;
 	int nrd, nwrt;
-	char *buffer;
+	char *bff;
 
-	buffer = malloc(sizeof(char) * (letters + 1));
-	if (filename == NULL || char == NULL)
+	bff = malloc(sizeof(*bff) * (letters + 1));
+	if (filename == NULL || bff == NULL)
 	{
-		if (!buffer)
+		if (!bff)
 		return (0);
 	}
 	file = open(filename, O_RDONLY);
 	if (file == -1)
 		return (0);
-	nrd = read(file, buffer, letters);
+	nrd = read(file, bff, letters);
 	if (nrd == -1)
 		return (0);
-	buffer[nrd] = '\0';
-	nwrt = write(STDOUT_FILENO, buffer, nrd);
+	bff[nrd] = '\0';
+	nwrt = write(STDOUT_FILENO, bff, nrd);
 	if (nrd != nwrt)
 		return (0);
-	free(buffer);
+	free(bff);
 	close(file);
 	return (nrd);
 }
